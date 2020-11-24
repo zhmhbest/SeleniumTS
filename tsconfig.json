@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "module": "CommonJS",
+        "target": "ES2016",
+        "lib": ["ES2016"],
+        "rootDir": "./src",
+        "outDir": "./out",
+        "strict": true,
+        "skipLibCheck": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "dist", "out"]
+}
