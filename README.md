@@ -6,7 +6,7 @@
 
 ### Dependencies
 
-```batch
+```bash
 npm install
 ```
 
@@ -21,7 +21,7 @@ DIR /B /O:N "%ProgramFiles%\Google\Chrome\Application" | FINDSTR ^[0-9]
 
 ## 运行
 
-```batch
+```bash
 npm run start
 ```
 
